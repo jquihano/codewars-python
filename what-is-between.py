@@ -4,3 +4,9 @@
 # a = 1
 # b = 4
 # --> [1, 2, 3, 4]
+
+def between(a,b):
+    newArr = []
+    for i in range(a,b+1):
+        newArr.append(i)
+    return newArr
